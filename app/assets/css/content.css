@@ -1,0 +1,11 @@
+.cont-nav{
+	min-height: 60px;
+	background-color: #202020;
+}
+
+.logo-arte{
+	height: 25px;
+	background: url(../img/Arte_Logo.png) no-repeat center;
+	background-size: cover;
+	width: 100px;
+}
