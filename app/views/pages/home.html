@@ -1,4 +1,4 @@
-<div class="cont-home">
+<div class="cont-home" ng-controller="HomeController as homeCtrl">
 	<div class="cont-head-home">
 			<div class="logo-home"></div>
 			<!-- <div class="title-home"></div>
@@ -28,7 +28,8 @@
 			</div>
 			
 			<div class="img-content">
-				<a ui-sref="content">DISCOVER</a>
+				<a ui-sref="content" ui-sref-opts="{reload: true}"> DISCOVER </a>
+				<!-- <a ng-click="homeCtrl.goContent()"> DISCOVER </a> -->
 			</div>
 		</div>
 	</div>
