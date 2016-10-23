@@ -1,16 +1,45 @@
-<div class="cont-home">
+<div class="cont-home" id="magic" ng-controller="ContentController as contentCtrl">
 	<div class="cont-head-home">
 			<div class="logo-home"></div>
-			<!-- <div class="title-home"></div>
- -->	</div>
-<!-- <nav class="cont-nav">
-	<div class="logo-arte"></div>
-	<div></div>
-</nav> -->
+
+			<!-- <div class="title-home"></div> -->
+	</div>
+	<!-- <nav class="cont-nav">
+		<div class="logo-arte"></div>
+		<div></div>
+	</nav> -->
 	<div class="cont-content">
-		
+		<section class="center slider">
+  			<div class="vignette" ng-repeat="v in contentCtrl.videos">
+<!-- 		      		<img src="http://placehold.it/350x300?text=1"> -->
+		      		<video preload="none" width="480" height="300" controls loop poster="{{v.VTU.IUR}}">
+        					<source src="" dynamic-url dynamic-url-src="{{v.VSR.HTTP_EQ_1.url}}" type="video/mp4" />
+    				</video>
+		    	</div>
+		  </section>
 	</div>
 
 </div>
 
-
+<!-- <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+    });
+  </script> -->
