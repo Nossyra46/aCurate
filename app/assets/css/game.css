@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'gottam';
+  
+  src: url('../font/Gotham-Book.otf');
+      
+}
+
+/*.cont-nav{
+	min-height: 60px;
+	background-color: #202020;
+}
+
+.logo-arte{
+	height: 25px;
+	background: url(../images/Arte_Logo.png) no-repeat center;
+	background-size: cover;
+	width: 100px;
+}*/
+
+body{
+	font-family: 'gottam';
+	margin: 0;
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/videodrome2.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+.cont-content-home{
+	display: flex;
+	width: 100%;
+}
+
+.cont-head-home{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-home{
+	/*background:url("../img/logo-creative.png") no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+	margin-right: 500px;*/
+	margin-left: 40px;
+	background:url("../img/logo.png") no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+}
+
+.cont-main-game{
+	display: flex;
+	flex-direction: column;
+}
+
+.row-game{
+	display: flex;
+}
+
+.gaming{
+	cursor: pointer;
+	height: 400px;
+	width: 350px;
+}
+
+.gaming:hover{
+
+	opacity: 0.8;
+}
+
+.gaming1{
+	background:url("../img/gaming1.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming2{
+	background:url("../img/gaming2.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming3{
+	background:url("../img/gaming3.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming4{
+	background:url("../img/gaming4.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming5{
+	background:url("../img/gaming5.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming6{
+	background:url("../img/gaming6.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming7{
+	background:url("../img/gaming7.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming8{
+	background:url("../img/gaming8.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming9{
+	background:url("../img/gaming9.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming10{
+	background:url("../img/gaming10.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming11{
+	background:url("../img/gaming11.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming12{
+	background:url("../img/gaming12.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming13{
+	background:url("../img/gaming13.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming14{
+	background:url("../img/gaming14.jpg") no-repeat;
+	background-size: cover;
+}
+
+.gaming15{
+	background:url("../img/gaming15.jpg") no-repeat;
+	background-size: cover;
+}
+
+.switch-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 160px;
+	border: solid 2px rgb(93,210,160);
+	
+	background-color: #fa481c;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-right: 40px;
+
+}
+
+.switch-icone{
+	background:url("../img/switch.png") no-repeat;
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+}
+
+.switch-button p{
+	padding-left: 10px;
+	margin: 0px;
+
+}
+
+.cont-head-home a{
+	text-decoration: none;
+}

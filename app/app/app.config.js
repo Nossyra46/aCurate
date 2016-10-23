@@ -14,6 +14,6 @@ myApp.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $u
 	})
 	.state('content', {
 		url: "/content",
-		templateUrl: "../views/pages/game.html"
+		templateUrl: "../views/pages/content.html"
 	});
 }]);

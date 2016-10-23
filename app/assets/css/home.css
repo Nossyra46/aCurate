@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'gottam';
+  
+  src: url('../font/Gotham-Book.otf');
+      
+}
+
 /*.cont-nav{
 	min-height: 60px;
 	background-color: #202020;
@@ -10,18 +17,189 @@
 	width: 100px;
 }*/
 
+body{
+	font-family: 'gottam';
+	margin: 0;
+	background-color: rgb(93,210,160);
+	background-image: none;
+}
+
 .cont-content-home{
 	display: flex;
-	flex-direction: column;
-	height: 100%;
 	width: 100%;
 }
 
 
-.caroussel{
-	background: linear-gradient( rgba(115,159,190,0.60), rgba(115,159,190,0.60)), url("../img/cover-home.png") no-repeat ;
-	background-size: cover;
-	height: 80vh;
-	width: 500px;
+.cont-head-home{
+	display: flex;
+	align-items: center;
+	color: white;
+	/*margin-bottom: 100px;*/
+	height: 80px;
+	background-color: #202020;
 }
 
+/*.title-home{
+	background:url("../img/logo.png") no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+}*/
+
+.logo-home{
+	/*background:url("../img/logo-creative.png") no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+	margin-right: 500px;*/
+	margin-left: 40px;
+	background:url("../img/logo.png") no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+}
+
+.cont-head h1{
+	font-size: 50px;
+	opacity: 0.8;
+}
+
+.caroussel{
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60));
+	/*background: linear-gradient( rgba(115,159,190,0.60), rgba(115,159,190,0.60)), url("../img/cover-home2.png") no-repeat ;
+	background-size: cover;*/
+	
+	width: 75%;
+}
+
+
+
+.menu{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: white;
+	background: linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60));
+	padding-right: 300px;
+	padding-left: 50px;
+
+}
+
+.menu a{
+	font-size: 60px;
+	margin-top: 20px;
+	opacity: 0.8
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+
+.menu a:hover{
+	color: #fa481c;
+	opacity: 1;
+}
+
+.cont-img{
+	display: flex;
+	
+	background: linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60));
+}
+
+.img-home{
+	margin:15px;
+	height: 300px;
+	
+	
+	background-size: cover;
+}
+
+.img1{
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/img1.png") no-repeat;
+	background-size: cover;
+	width: 300px;
+
+}
+
+.img2{
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/img3.png") no-repeat;
+	background-size: cover;
+	width: 600px;
+
+}
+
+.img3{
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/zelda.png") no-repeat;
+	background-size: cover;
+	width: 600px;
+
+}
+
+.img4{
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/img2.png") no-repeat;
+	background-size: cover;
+	width: 300px;
+
+}
+
+/*HOME2*/
+
+.cont-img{
+	display: flex;
+	width: 100%
+}
+
+.img-game{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/game.jpg") no-repeat center;
+	height: 100vh;
+	width: 50%;
+	background-size: cover;
+}
+
+.img-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:linear-gradient( rgba(231,76,12,0.60), rgba(231,76,12,0.60)), url("../img/videodrome2.jpg") no-repeat center;
+	height: 100vh;
+	width: 50%;
+	background-size: cover;
+}
+
+
+.img-game a{
+	font-size: 60px;
+	margin-top: 20px;
+	opacity: 0.9;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.img-content a{
+	font-size: 60px;
+	margin-top: 20px;
+	opacity: 0.9;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.img-content a:hover{
+color: rgb(93,210,160);
+	opacity: 1;
+}
+
+
+.img-game a:hover{
+color: #fa481c;
+	opacity: 1;
+}
