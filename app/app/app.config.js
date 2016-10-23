@@ -1,4 +1,8 @@
-myApp.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
+myApp.config(['$stateProvider', '$urlRouterProvider', '$httpProvider',function($stateProvider, $urlRouterProvider, $httpProvider) {
+	// CORS
+	$httpProvider.defaults.withCredentials = true;
+	$httpProvider.defaults.useXDomain = true;
+
 	// Default route
 	$urlRouterProvider.otherwise('/');
 
@@ -15,5 +19,9 @@ myApp.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $u
 	.state('content', {
 		url: "/content",
 		templateUrl: "../views/pages/content.html"
+	})
+	.state('test', {
+		url: "/test",
+		templateUrl: "../views/pages/test.html"
 	});
 }]);

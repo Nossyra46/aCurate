@@ -1,0 +1,9 @@
+<div ng-controller="TestController as testCtrl">
+	<h1> Test </h1>
+
+	<!-- <iframe style="transition-duration:0;transition-property:no;margin:0 auto;position:relative;display:block;background-color:#000000;" frameborder="0" scrolling="no" width="720" height="406" src="http://arteptweb.gl-systemhaus.de/am/ptweb/052000/052900/052972-000-A_SQ_0_VA_01221297_MP4-2200_AMM-PTWEB.mp4"></iframe> -->
+
+	<video preload="none" width="720px" height="406px" controls loop ng-repeat="v in testCtrl.videos">
+        <source src="" dynamic-url dynamic-url-src="{{v.VSR.HTTP_EQ_1.url}}" type="video/mp4" />
+    </video>
+</div>
