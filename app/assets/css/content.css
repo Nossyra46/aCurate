@@ -76,8 +76,8 @@
 #magic .slider{
 	margin-top: 0px !important;
 	margin-bottom: 30px !important;
-	width: 80%;
-	left: 10%;
+	width: 90%;
+	left: 5%;
 }
 
 #magic .switch-button{
@@ -104,4 +104,8 @@
 #magic .switch-button p{
 	padding-left: 10px;
 	margin: 0px;
+}
+
+#magic .vignette {
+	margin: 0 2px;
 }

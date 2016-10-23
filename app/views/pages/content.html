@@ -12,7 +12,7 @@
 		<section class="center slider">
   			<div class="vignette" ng-repeat="v in contentCtrl.videos">
 <!-- 		      		<img src="http://placehold.it/350x300?text=1"> -->
-		      		<video preload="none" width="480" height="300" controls loop poster="{{v.VTU.IUR}}">
+		      		<video preload="none" width="480" height="300" poster="{{v.VTU.IUR}}" onclick="this.play()">
         					<source src="" dynamic-url dynamic-url-src="{{v.VSR.HTTP_EQ_1.url}}" type="video/mp4" />
     				</video>
 		    	</div>

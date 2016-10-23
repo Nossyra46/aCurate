@@ -1,15 +1,9 @@
 $(document).on('ready', function() {
 setTimeout(function () {
-      $(".test").slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 10
-      });
-
       $(".regular").slick({
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 3
       });
 
@@ -17,7 +11,7 @@ setTimeout(function () {
         dots: true,
         infinite: true,
         centerMode: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 3
       });
 
@@ -28,5 +22,5 @@ setTimeout(function () {
       });
 
       console.log("Executed");
-    }, 1000);
+    }, 500);
     });
