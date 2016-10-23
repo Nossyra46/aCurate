@@ -28,5 +28,5 @@ setTimeout(function () {
       });
 
       console.log("Executed");
-    }, 1000);
+    }, 500);
     });
