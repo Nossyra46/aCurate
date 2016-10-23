@@ -20,13 +20,17 @@
 #magic {
 	font-family: 'gottam';
 	margin: 0;
-	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), url("../img/videodrome2.jpg") no-repeat;
+	background:linear-gradient( rgba(93,210,160,0.60), rgba(93,210,160,0.60)), no-repeat;
 	background-size: cover;
 }
 
 #magic .cont-content-home{
 	display: flex;
 	width: 100%;
+}
+
+.cont-content{
+	height: 100%;
 }
 
 #magic .logo-home{
@@ -108,4 +112,168 @@
 
 #magic .vignette {
 	margin: 0 2px;
+}
+
+#magic .vignette1 {
+	background:url("../img/s1.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette2 {
+	background:url("../img/s2.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette3 {
+	background:url("../img/s3.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette4 {
+	background:url("../img/s4.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+}
+
+#magic .vignette5 {
+	background:url("../img/s5.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette6 {
+	background:url("../img/s6.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette7 {
+	background:url("../img/s7.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette8 {
+	background:url("../img/s8.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette9 {
+	background:url("../img/s9.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignette10 {
+	background:url("../img/s10.jpg") no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .cont-content h2{
+	margin-top: 50px;
+	margin-left: 10%;
+	color: #fa481c;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+#magic .vignetteL1 {
+	background:url("../img/L1.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .vignetteL2 {
+	background:url("../img/L2.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL3 {
+	background:url("../img/L3.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL4 {
+	background:url("../img/L4.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL5 {
+	background:url("../img/L5.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL6 {
+	background:url("../img/l6.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL7 {
+	background:url("../img/l7.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL8 {
+	background:url("./img/L8.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 200px;
+	cursor: pointer;
+}
+#magic .vignetteL9 {
+	background:url("../img/L9.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+#magic .vignetteL10 {
+	background:url("../img/L10.png") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#magic .slider{
+	margin-bottom: 100px !important;
 }
